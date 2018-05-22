@@ -8,7 +8,7 @@ close all;
 
 % Load bag file
 cd('~/catkin_ws/src/mrc_hw6/matlab')
-bag = rosbag('../data/navigation.bag');
+bag = rosbag('../data/matnav.bag');
 
 %----------------------------ODOM DATA------------------------------------%
 odom_select = select(bag,'Topic','/odom');
